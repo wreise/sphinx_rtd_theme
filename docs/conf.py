@@ -47,6 +47,8 @@ intersphinx_mapping = {
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': True,
+    'navigation_depth': 5,
+
 }
 html_context = {}
 
@@ -64,6 +66,7 @@ html_logo = "demo/static/logo-wordmark-light.svg"
 html_show_sourcelink = True
 
 htmlhelp_basename = slug
+
 
 latex_documents = [
   ('index', '{0}.tex'.format(slug), project, author, 'manual'),
